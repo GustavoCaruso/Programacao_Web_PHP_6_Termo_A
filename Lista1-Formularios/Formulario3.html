@@ -1,54 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário com Colunas e Linha Vertical</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Formulário 3</title>
+
 </head>
+
 <body>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 pr-4 border-right">
                 <form>
-                    <div class="form-group">
-                        <label for="inputName">Nome</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label>label 1</label> <i class="fa-solid fa-circle-question" style="color: #009dff;"></i>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <select class="form-control">
+                                <option selected>Selecione uma opção</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label>Label 2</label>
+                            <select class="form-control">
+                                <option selected>Selecione uma opção</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <select class="form-control">
+                                <option selected>Selecione uma opção</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email">
+                        <label>Label 3</label>
+                        <input type="text" class="form-control" placeholder="Exemplo:">
                     </div>
 
 
                     <div class="form-row">
 
                         <div class="form-group col-md-3">
-                            <label for="inputPhone">Telefone</label>
-                            <input type="tel" class="form-control" id="inputPhone" placeholder="Digite seu telefone">
+                            <label>Label 4</label>
+                            <input type="text" class="form-control">
                         </div>
 
                         <div class="form-group col-md-3">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Digite sua cidade">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <input type="text" class="form-control">
                         </div>
 
                         <div class="form-group col-md-3">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Digite sua cidade">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <input type="text" class="form-control">
                         </div>
 
                         <div class="form-group col-md-3">
-                            <label for="inputCity">Cidade</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Digite sua cidade">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <input type="text" class="form-control">
                         </div>
-                        
+
                     </div>
                 </form>
             </div>
@@ -56,51 +82,55 @@
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputAge">Idade</label>
-                            <input type="number" class="form-control" id="inputAge" placeholder="Digite sua idade">
+                            <label>label 5</label>
+                            <input type="text" class="form-control">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputCountry">País</label>
-                            <input type="text" class="form-control" id="inputCountry" placeholder="Digite seu país">
+                            <label>label 6</label>
+                            <input type="text" class="form-control">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputAge">Idade</label>
-                            <input type="number" class="form-control" id="inputAge" placeholder="Digite sua idade">
+                            <label>Label 7</label>
+                            <select class="form-control">
+                                <option selected>Selecione uma opção</option>
+                            </select>
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputCountry">País</label>
-                            <input type="text" class="form-control" id="inputCountry" placeholder="Digite seu país">
+                            <label>Label 8</label>
+                            <input type="date" class="form-control">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-4">
-                            <label for="inputAge">Idade</label>
-                            <input type="number" class="form-control" id="inputAge" placeholder="Digite sua idade">
+                            <label>Label 9</label>
+                            <input type="text" class="form-control">
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="inputCountry">País</label>
-                            <input type="text" class="form-control" id="inputCountry" placeholder="Digite seu país">
+                            <label>Label 10</label>
+                            <input type="text" class="form-control">
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="inputCountry">País</label>
-                            <input type="text" class="form-control" id="inputCountry" placeholder="Digite seu país">
+                            <label>⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                            <select class="form-control">
+                                <option selected>Selecione uma opção</option>
+                            </select>
                         </div>
                     </div>
-                   
-                        
-                            <div class="justify-content-end text-right">
-                                <label for="inputCountry">⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
-                                <div></div>
-                             
-                                
-                                <button type="submit" class="btn btn-light">Cancelar</button>
-                                <button type="submit" class="btn btn-success">Enviar</button>
-                            </div>
-                     
-                        
-                  
+
+
+                    <div class="justify-content-end text-right">
+                        <label for="inputCountry">⠀⠀⠀⠀⠀⠀⠀⠀⠀</label>
+                        <div></div>
+
+
+                        <button type="submit" class="btn btn-light">Limpar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+
+
+
                 </form>
             </div>
         </div>
@@ -110,4 +140,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
