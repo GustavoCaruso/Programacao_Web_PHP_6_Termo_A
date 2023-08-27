@@ -8,17 +8,30 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Exercício 7 - Lista 2</title>
+    <title>Exercício 8 - Lista 2</title>
   </head>
-  <body class="container">
+  <body>
   <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $metros = $_POST['metros'];
-        $centimetros = $metros * 100;
+    if(isset($_POST['area'])) {
+        $area = floatval($_POST['area']);
         
-        echo "<p>$metros metros equivalem a $centimetros centímetros.</p>";
+        $litrosPorMetroQuadrado = 1 / 3;
+        $litrosNecessarios = $area * $litrosPorMetroQuadrado;
+        
+        $litrosPorLata = 18;
+        $latasNecessarias = ceil($litrosNecessarios / $litrosPorLata);
+        
+        $precoPorLata = 80.00;
+        $precoTotal = $latasNecessarias * $precoPorLata;
+        
+        echo "<h2>Resultado:</h2>";
+        echo "Área a ser pintada: $area metros quadrados<br>";
+        echo "Litros necessários: $litrosNecessarios litros<br>";
+        echo "Latas de tinta necessárias: $latasNecessarias latas<br>";
+        echo "Preço total: R$ $precoTotal<br>";
     }
     ?>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
