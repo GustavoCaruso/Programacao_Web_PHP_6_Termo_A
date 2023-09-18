@@ -1,0 +1,11 @@
+Nome: dsds
+CPF: 3223
+Data de Nascimento: 2003-03-22
+Sexo: masculino
+Estado Civil: casado
+Renda Mensal: 122
+Logradouro: dss
+Número: 34
+Complemento: d
+Estado: rj
+Cidade: dsds

@@ -1,0 +1,9 @@
+Nome: sqs
+CPF: 448
+Data de Nascimento: 2003-03-22
+Sexo: masculino
+Estado Civil: solteiro
+Renda Mensal: 122
+Endereço: hh, 32 - g
+Cidade: kbj
+Estado: sp

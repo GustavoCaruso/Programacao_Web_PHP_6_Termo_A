@@ -1,0 +1,11 @@
+Nome: sasas
+CPF: 323
+Data de Nascimento: 2003-03-22
+Sexo: masculino
+Estado Civil: divorciado
+Renda Mensal: 232
+Logradouro: wdw
+Número: 3
+Complemento: d
+Estado: mg
+Cidade: ssd

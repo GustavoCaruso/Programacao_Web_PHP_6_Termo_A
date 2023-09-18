@@ -1,0 +1,19 @@
+1- Infra(
+2-classe map
+3- sql context (add as entidades e chamar mapeamento)
+)
+
+4-service(
+4.1 criar classe de validação para cada uma
+)
+
+5-aplication(
+5.1-criar classe model
+6-startup(
+incluir mapeamento do model com a classe
+adicionar a injeção de dependencia
+
+)
+)
+
+7-no final clicar com o botão direito encima do controller adicionar o controlador e api vazia

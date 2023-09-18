@@ -1,0 +1,9 @@
+Nome: guus
+CPF: 44822874826
+Data de Nascimento: 2003-03-22
+Sexo: masculino
+Estado Civil: casado
+Renda Mensal: 122
+Endereço: qwq, 45 - b
+Cidade: REGENTE FEIJO
+Estado: sp
