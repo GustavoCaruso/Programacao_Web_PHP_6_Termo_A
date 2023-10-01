@@ -1,0 +1,9 @@
+Nome: Gustavo Caruso dos Santos
+CPF: 13822609897
+Data de Nascimento: 2003-03-22
+Sexo: masculino
+Estado Civil: solteiro
+Renda Mensal: 122
+Endereço: qwq, 32 - d
+Cidade: REGENTE FEIJO
+Estado: sp
