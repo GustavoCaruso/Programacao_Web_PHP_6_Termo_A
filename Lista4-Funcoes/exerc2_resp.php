@@ -14,7 +14,7 @@
         }
     }
 
-    sort($alunos); // Classifica os nomes em ordem alfabética
+    sort($alunos); 
 
     if (count($alunos) > 0) {
         echo "<ul>";

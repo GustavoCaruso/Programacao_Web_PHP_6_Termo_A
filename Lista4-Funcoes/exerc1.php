@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verificar Data</title>
+    <title>Exercício 1 - Lista 4</title>
 </head>
 <body>
-    <h1>Verificar Data e Dia da Semana</h1>
+    
     <form action="exerc1_resp.php" method="post">
         <label for="data">Digite uma data (AAAA-MM-DD):</label>
         <input type="text" name="data" id="data" required>
@@ -13,13 +13,13 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        include "verificar_data.php"; // Inclui o arquivo com a função de verificação
+        include "verificar_data.php"; 
 
         $data = $_POST["data"];
         
         if (validarData($data)) {
             $dataObj = new DateTime($data);
-            $diaSemana = $dataObj->format('l'); // Obtém o dia da semana
+            $diaSemana = $dataObj->format('l');
             
             echo "<p>A data {$data} é válida e corresponde a um(a) {$diaSemana}.</p>";
         } else {

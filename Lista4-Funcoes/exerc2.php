@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulário de Alunos</title>
+    <title>Exercício 2 - Lista 4</title>
 </head>
 <body>
     <h1>Informe o nome de 10 alunos</h1>
