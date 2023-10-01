@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Exercício 6 - Lista 4</h1>
-    <form action="verifica-perfeito.php" method="post">
+    <form action="exerc6_resp.php" method="post">
         <label for="numero">Digite um número:</label>
         <input type="number" id="numero" name="numero" required><br><br>
         
