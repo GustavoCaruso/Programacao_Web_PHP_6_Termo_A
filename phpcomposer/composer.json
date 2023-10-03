@@ -1,0 +1,15 @@
+{
+    "name": "php/biblioteca",
+    "description": "este é o meu primeiro projeto php com composer",
+    "autoload": {
+        "psr-4": {
+            "Php\\Biblioteca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gustavo Caruso dos Santos"
+        }
+    ],
+    "require": {}
+}
