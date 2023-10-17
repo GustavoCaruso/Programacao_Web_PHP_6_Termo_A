@@ -5,14 +5,46 @@ require '../src/View/cabecalho.php';
 <?php
 if (isset($_SESSION['gravar'])) {
     if ($_SESSION['gravar'])
-        echo "Regristro gravado com sucesso!";
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        Registro gravado com sucesso!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
     else
-        echo "Erro";
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Erro ao inserir o registro!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
     unset($_SESSION['gravar']);
+}
+if (isset($_SESSION['editar'])) {
+    if ($_SESSION['editar'])
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        Registro alterado com sucesso!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
+    else
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Erro ao alterar o registro!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
+    unset($_SESSION['editar']);
+}
+if (isset($_SESSION['deletar'])) {
+    if ($_SESSION['deletar'])
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        Registro excluido com sucesso!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
+    else
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Erro ao excluir o registro!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>';
+    unset($_SESSION['deletar']);
 }
 ?>
 <h1>Categorias Registradas</h1>
-<table class="table table-striped table-hover">
+<table class="table table-striped table-hover" id="tabela">
     <thead class="table-light">
         <tr>
             <th scope="col">#</th>

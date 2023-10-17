@@ -6,22 +6,25 @@
 <?php
   require '../src/View/cabecalho.php';
   ?>
-<h1>Nova Categoria</h1>
+<h1>excluir Categoria</h1>
 
-<form method="post" action="/categoria/editar/<?=$resultado['id']?>">
+<form method="post" action="/categoria/deletar/<?=$resultado['id']?>">
         <div class="row">
             <div class="col">
                 <label for="descricao" class="form-label">
-                    Informe a descrição:
+                    descrição:
                 </label>
                 <input type="text" class="form-control" 
-                    name="descricao" id="descricao" value="<?=$resultado['descricao']?>">
+                    name="descricao" id="descricao" value="<?=$resultado['descricao']?> "disabled>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <button type="submit" class="btn btn-secondary">
-                    Inserir
+                    <h5 class="text-danger">
+                    Deseja realmente excluir
+                    </h5>
+                <button type="submit" class="btn btn-danger">
+                    Excluir
                 </button>
             </div>
         </div>
